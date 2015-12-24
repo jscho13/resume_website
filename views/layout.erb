@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Welcome to Joseph Cho's Webpage</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="stylesheets/foundation.css" />
-    <link rel="stylesheet" href="stylesheets/styles.css" />
-    <link rel="stylesheet" href="stylesheets/motion-ui.css" />
+    <title>Welcome</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/foundation.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/motion-ui.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
   </head>
+
   <body>
     <div data-sticky-container>
       <div style="width:100%" class="sticky" data-sticky data-options="marginTop:0;">
@@ -19,7 +21,6 @@
           </div>
           <div class="top-bar-right">
             <ul class="menu">
-              <li><a href="#">About Me</a></li>
               <li><a href="#">Projects</a></li>
               <li><a href="#">Contact</a></li>
               <li><input type="search" placeholder="Search"></li>
@@ -29,12 +30,14 @@
         </div>
       </div>
     </div>
+
     <div class="container">
       <%= yield %>
     </div>
+
     <script src="/javascript/jquery.min.js"></script>
     <script src="/javascript/foundation.js"></script>
-    <script src="/javascript/app.js"></script
-    <script src="/javascript/motion-ui.js"></script
+    <script src="/javascript/app.js"></script>
+    <script src="/javascript/motion-ui.js"></script>
   </body>
 </html>

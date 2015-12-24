@@ -1,0 +1,22 @@
+.container {
+  background-color: grey;
+}
+
+.row {
+  background-color: white;
+}
+
+img {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.orbit-caption {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+p {
+  font-size: 26px;
+}
