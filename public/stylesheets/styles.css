@@ -14,9 +14,18 @@ img {
 .orbit-caption {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
+}
+
+.caption-header {
+  font-weight: bolder;
   font-size: 34px;
+  margin-bottom: 0;
+}
+
+.caption-footer {
+  font-size: 20px;
 }
 
 p {
-  font-size: 26px;
+  font-size: 22px;
 }
