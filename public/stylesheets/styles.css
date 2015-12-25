@@ -6,19 +6,18 @@
   background-color: white;
 }
 
-img {
-   position: relative;
-   width: 100%; /* for IE 6 */
-}
-
 .orbit-caption {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
 }
 
+.orbit-container {
+  height: auto !important;
+}
+
 .caption-header {
-  font-weight: bolder;
-  font-size: 34px;
+  font-size: 30px;
+  font-weight: bold;
   margin-bottom: 0;
 }
 
@@ -26,6 +25,15 @@ img {
   font-size: 20px;
 }
 
-p {
-  font-size: 22px;
+.text-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text-footer {
+  font-size: 18px;
+}
+
+.image-spacer {
+  margin-top: 3%;
 }
