@@ -1,7 +1,7 @@
 
-<div class="orbit" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; timerDelay:5000">
+<div id="home" class="orbit" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; timerDelay:5000">
   <div class="black-wrapper">
-    <ul class="orbit-container row">
+    <ul class="row orbit-container">
       <button class="orbit-previous">&#9664;</button>
       <button class="orbit-next">&#9654;</button>
       <li class="orbit-slide">
@@ -18,7 +18,7 @@
           <img src="images/analysis1.jpg">
           <figcaption class="orbit-caption">
             <p class="caption-header">Analyze</p>
-            <p class="caption-footer">Anyone can amass data. The real question is what to do with it and how to analyze it.</p>
+            <p class="caption-footer">Anyone can amass data. The real question is how to analyze it.</p>
           </figcaption>
         </div>
       </li>
@@ -27,7 +27,7 @@
           <img src="images/design1.jpg">
           <figcaption class="orbit-caption">
             <p class="caption-header">Design</p>
-            <p class="caption-footer">Successful products are more than bug-free code. The key to attracting users is having intuitive and elegant design.</p>
+            <p class="caption-footer">Successful products are more than bug-free code. Having intuitive and elegant design is key to attracting users.</p>
           </figcaption>
         </div>
       </li>
@@ -42,7 +42,7 @@
       </li>
     </ul>
   </div>
-  <nav class="orbit-bullets row">
+  <nav class="row orbit-bullets">
     <button class="is-active" data-slide="0"></button>
     <button data-slide="1"></button>
     <button data-slide="2"></button>
@@ -50,7 +50,7 @@
   </nav>
 </div>
 
-<div class="row">
+<div id="about" class="row">
   <div class="small-8 columns">
     <div class="text-header">
       <p>Hi, I'm Joseph.</p>
@@ -69,55 +69,57 @@
 </div>
 
 <div class="row">
-  <img src="images/parallax1.jpg">
+  <img src="images/chess1.jpg">
 </div>
 
-<div class="row columns">
+<div id="projects" class="row columns">
   <div class="text-header image-spacer">
     <p>Projects</p>
   </div>
   <ul class="tabs" data-tabs id="project-tabs">
-    <li class="tabs-title is-active"><a href="#panel1">josephscho.com</a></li>
-    <li class="tabs-title"><a href="#panel2">Online Trading Webcrawler</a></li>
-    <li class="tabs-title"><a href="#panel3">Breakable Toy</a></li>
+    <li class="tabs-title is-active"><a href="#this-website">This Website</a></li>
+    <li class="tabs-title"><a href="#online-trading-webcrawler">Online Trading Webcrawler</a></li>
+    <li class="tabs-title"><a href="#breakable-toy">Breakable Toy</a></li>
+    <li class="tabs-title"><a href="#db-sql-query">Database SQL Query</a></li>
   </ul>
-  <div class="tabs-content" data-tabs-content="project-tabs">
-    <div class="tabs-panel is-active" id="panel1">
+  <div class="tabs-content columns" data-tabs-content="project-tabs">
+    <section class="tabs-content-header">Technologies used:</section>
+    <div class="tabs-panel is-active" id="this-website">
       <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
     </div>
-    <div class="tabs-panel" id="panel2">
-      <p>fsfesVivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+
+    <div class="tabs-panel" id="online-trading-webcrawler">
+      <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
     </div>
-    <div class="tabs-panel" id="panel3">
-      <p>11123Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+
+    <div class="tabs-panel" id="breakable-toy">
+      <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
     </div>
+
+    <div class="tabs-panel" id="db-sql-query">
+      <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+    </div>
+
   </div>
 </div>
 
-
 <!-- <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
   <li class="accordion-item">
-    <a href="#first-item" class="accordion-title" id="first-item">This Website</a>
-    <div id="first-item" class="accordion-content" data-tab-content>
-      Technologies used:
+    <a class="accordion-title">Sinatra</a>
+    <div class="accordion-content" data-tab-content>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
   </li>
   <li class="accordion-item">
-    <a href="#second-item" class="accordion-title" id="second-item">Webcrawler</a>
-    <div id="second-item" class="accordion-content" data-tab-content>
-      Technologies used:
+    <a class="accordion-title">Foundation</a>
+    <div class="accordion-content" data-tab-content>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
   </li>
   <li class="accordion-item">
-    <a href="#third-item" class="accordion-title" id="first-item">Breakable Toy</a>
-    <div id="third-item" class="accordion-content" data-tab-content>
-      Technologies used:
-    </div>
-  </li>
-  <li class="accordion-item">
-    <a href="#fourth-item" class="accordion-title" id="first-item">Launch Group Project</a>
-    <div id="fourth-item" class="accordion-content" data-tab-content>
-      Technologies used:
+    <a class="accordion-title">Heroku</a>
+    <div class="accordion-content" data-tab-content>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
   </li>
 </ul> -->
