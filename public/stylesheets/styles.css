@@ -19,7 +19,6 @@ a[href="#about"] {
   height: auto !important;
   margin: auto; }
   .orbit-caption {
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold; }
   .caption-header {
     font-size: 30px;
@@ -40,7 +39,7 @@ a[href="#about"] {
     font-size: 18px; }
 
 .image-spacer {
-  margin-top: 3%; }
+  margin-top: 2%; }
 
 .tabs-title a {
   font-size: 18px; }
