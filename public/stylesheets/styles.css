@@ -10,9 +10,10 @@ a[href="#about"] {
 
 .row {
   background-color: white; }
-
-.black-wrapper {
-  background-color: black; }
+  .black-wrapper {
+    background-color: black; }
+  .gray-wrapper {
+    background-color: #dddddd; }
 
 .orbit-container {
   height: auto !important;
