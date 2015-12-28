@@ -3,7 +3,7 @@ body {
   height: auto; }
 
 li {
-  font-size: 20px; }
+  font-size: 2.5vmin; }
 
 a[href="#home"] {
   color: black; }
@@ -21,11 +21,11 @@ a[href="#home"] {
   .orbit-caption {
     font-weight: bold; }
   .caption-header {
-    font-size: 30px;
+    font-size: 3.5vmin;
     font-weight: bold;
     margin-bottom: 0; }
   .caption-footer {
-    font-size: 18px; }
+    font-size: 2.25vmin; }
 
 .top-bar {
   background-color: white;}
@@ -33,23 +33,22 @@ a[href="#home"] {
     background-color: white;}
 
 .text-header {
-  font-size: 30px;
+  font-size: 3vmin;
   font-weight: bold; }
   .text-footer {
-    font-size: 18px; }
+    font-size: 2vmin; }
 
 .image-spacer {
   margin-top: 2%; }
 
 .tabs-title a {
-  font-size: 18px; }
+  font-size: 2vmin; }
   .tabs-content {
+    font-size: 1.85vmin;
     padding-top: 1%; }
-  .tabs-content-header {
-    font-style: oblique; }
 
 .accordion-title {
-  font-size: 18px; }
+  font-size: 2vmin; }
 
 .footer {
   background-color: black;
@@ -58,19 +57,19 @@ a[href="#home"] {
   margin-top: 3%; }
   .footer p.slogan {
     color: #8d9093;
-    font-size: 30px; }
+    font-size: 3.25vmin; }
   .footer .links a {
     text-align: center;
     list-style: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 2.5vmin;
     color: #ffffff;}
     .footer .links a::after {
       content: "•";
-      padding: 0 4px 0 8px; }
+      padding: 0 0.75vmin 0 1.5vmin; }
     .footer .links a:last-child::after {
       content: "";
-      padding-left: 4px; }
+      padding-left: 0.75vmin; }
   .footer p.copywrite {
     color: #8f9296;
-    font-size: 14px; }
+    font-size: 1.5vmin; }
