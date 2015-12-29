@@ -3,10 +3,12 @@ body {
   height: auto; }
 
 li {
-  font-size: 2.5vmin; }
+  font-size: 2.25vmin; }
 
-a[href="#home"] {
-  color: black; }
+a {
+  padding: 1vmin; }  
+  a[href="#home"] {
+    color: black; }
 
 hr {
   margin: 2vmin; }
@@ -16,8 +18,10 @@ tbody td {
 }
 
 thead th {
-  padding:1.5vmin;
-}
+  padding:1.5vmin; }
+
+p {
+  margin: 1vmin; }
 
 .row {
   background-color: white; }
@@ -25,6 +29,9 @@ thead th {
     background-color: black; }
   .gray-wrapper {
     background-color: #dddddd; }
+
+.columns {
+  padding: 1vmin; }
 
 .orbit-container {
   height: auto !important;
@@ -38,6 +45,8 @@ thead th {
     margin-bottom: 0; }
   .caption-footer {
     font-size: 2.25vmin; }
+  .orbit-bullets {
+    margin: 2.5vmin; }
 
 .top-bar {
   background-color: white;
@@ -53,9 +62,6 @@ thead th {
   font-weight: bold; }
   .text-footer {
     font-size: 2vmin; }
-
-.image-spacer {
-  margin-top: 2%; }
 
 .tabs {
   border: 1vmin; }
