@@ -6,7 +6,7 @@ li {
   font-size: 2.25vmin; }
 
 a {
-  padding: 1vmin; }  
+  padding: 1vmin; }
   a[href="#home"] {
     color: black; }
 
@@ -46,7 +46,8 @@ p {
   .caption-footer {
     font-size: 2.25vmin; }
   .orbit-bullets {
-    margin: 2.5vmin; }
+    margin: 1vmin, 0, 1vmin, 0;
+    text-align: center; }
 
 .top-bar {
   background-color: white;
