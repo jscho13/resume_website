@@ -33,8 +33,10 @@ p {
 .columns {
   padding: 1vmin; }
 
+.picture {
+  height: auto !important; }
+
 .orbit-container {
-  height: auto !important;
   margin: auto; }
   .orbit-caption {
     font-weight: bold;
