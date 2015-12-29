@@ -8,6 +8,17 @@ li {
 a[href="#home"] {
   color: black; }
 
+hr {
+  margin: 2vmin; }
+
+tbody td {
+  padding:1.5vmin;
+}
+
+thead th {
+  padding:1.5vmin;
+}
+
 .row {
   background-color: white; }
   .black-wrapper {
@@ -29,9 +40,13 @@ a[href="#home"] {
     font-size: 2.25vmin; }
 
 .top-bar {
-  background-color: white; }
+  background-color: white;
+  padding: 1vmin; }
   .top-bar ul {
     background-color: white; }
+
+.menu > li:not(.menu-text) > a {
+  padding: 1vmin; }
 
 .text-header {
   font-size: 3vmin;
@@ -55,6 +70,8 @@ a[href="#home"] {
 
 .accordion-title {
   font-size: 2vmin; }
+  table {
+    margin-bottom: 0; }
 
 .footer {
   background-color: black;
