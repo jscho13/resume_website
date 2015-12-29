@@ -5,10 +5,8 @@ body {
 li {
   font-size: 2.25vmin; }
 
-a {
-  padding: 1vmin; }
-  a[href="#home"] {
-    color: black; }
+a[href="#home"] {
+  color: black; }
 
 hr {
   margin: 2vmin; }

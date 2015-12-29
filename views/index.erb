@@ -156,9 +156,9 @@
         <img src="images/webcrawler1.jpg">
       </div>
       <div class="small-12 columns">
-        <p>There were several design decisions made while coding of the webcrawler. When iterating through the websites it was tempting to use either an array of hashes or an array of objects. Both were considered because they contain a list of attributes stored within a single unit. However, an array of objects was chosen because it would have scalability. It’s significantly easier to manipulate objects as opposed to hashes.</p><br>
-        <p>Ruby gems are useful for adding additional functionality with ease. Nokogiri is a gem (another name for Ruby library) that allows Ruby to parse through XML/HTML or similar markup languages. It was used to extract betting odds, usernames, and items being bet from the page during a set extraction interval. The extracted data was stored on the cloud, so the user could amass data on betting statistics.</p><br>
-        <p>XPath was used to select the elements from the page. I extensively used Chrome’s developer tools to navigate through the DOM (Document Object Model). The DOM is particularly useful to understand the structure of the website. HTML, CSS, and JavaScript can all be used within the DOM to manipulate the site client-side.</p><br>
+        <p>There were several design decisions made while coding of the webcrawler. When iterating through the websites it was tempting to use either an array of hashes or an array of objects. Both were considered because they contain a list of attributes stored within a single unit. However, an array of objects was chosen because it would have scalability. It’s significantly easier to manipulate objects as opposed to hashes.</p>
+        <p>Ruby gems are useful for adding additional functionality with ease. Nokogiri is a gem (another name for Ruby library) that allows Ruby to parse through XML/HTML or similar markup languages. It was used to extract betting odds, usernames, and items being bet from the page during a set extraction interval. The extracted data was stored on the cloud, so the user could amass data on betting statistics.</p>
+        <p>XPath was used to select the elements from the page. I extensively used Chrome’s developer tools to navigate through the DOM (Document Object Model). The DOM is particularly useful to understand the structure of the website. HTML, CSS, and JavaScript can all be used within the DOM to manipulate the site client-side.</p>
       </div>
     </div>
 
@@ -180,12 +180,8 @@
             <td>Foundation is a responsive front-end framework that utilizes a responsive grid, HTML and CSS components. It includes code snippets for typography, forms, buttons, navigation and other common interface components. It also includes optional JavaScript extensions for a more responsive application. Foundation is maintained by ZURB and is an open source project.</td>
           </tr>
           <tr>
-            <td>Ruby</td>
-            <td>Ruby is a dynamic, object-orientated, general-purpose, programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. <a href="http://ruby-doc.com/docs/ProgrammingRuby/">The Pragmatic Programmer's Guide</a> by Dave Thomas and Andy Matz describe Ruby like this: "Take a true object-oriented language, such as Smalltalk. Drop the unfamiliar syntax and move to more conventional, file-based source code. Now add in a good measure of the flexibility and convenience of languages such as Python and Perl. You end up with Ruby."</td>
-          </tr>
-          <tr>
-            <td>HTML, CSS, JavaScript</td>
-            <td>HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JavaScript are cornerstone technologies used by websites. HTML determines the foundational structure and content of web pages. Web browsers then refer to CSS to define the look and layout of the text and other material. Finally, JavaScript enables a majority of the interaction between the user and the webpage. Without JavaScript, a majority of responsive effects would be unavailable. In terms of a human analogy, HTML is the skeleton, CSS is the skin, and JavaScript is the muscles of a web application.</td>
+            <td>PostgreSQL</td>
+            <td>PostgreSQL, often simply Postgres, is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance. As a database server, its primary function is to store data securely, supporting best practices, and to allow for retrieval at the request of other software applications.</td>
           </tr>
         </tbody>
       </table>
@@ -201,7 +197,7 @@
   </div>
   <ul class="tabs" data-tabs id="experience-tabs">
     <li class="tabs-title is-active"><a href="#db-sql-query">SQL Database Anaylst</a></li>
-    <li class="tabs-title"><a href="#clinical-research">Clinical Research Assistant</a></li>
+    <li class="tabs-title"><a href="#clinical-research">Clinical Research Intern</a></li>
   </ul>
   <div class="tabs-content columns" data-tabs-content="experience-tabs">
     <div class="tabs-panel is-active" id="db-sql-query">
@@ -217,10 +213,31 @@
             <td>SQL</td>
             <td>SQL is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS). Originally based upon relational algebra and tuple relational calculus, SQL consists of a data definition, manipulation, control language. The scope of SQL includes data insert, query, update, delete, schema creation and modification, and data access control. Although SQL is often described as, and to a great extent is, a declarative language, it also includes procedural elements.</td>
           </tr>
+          <tr>
+            <td>Informatica Cloud</td>
+            <td>Informatica Cloud is a bulk data integration and data warehousing system. While their technology spans a variety of cloud and non-cloud applications, their data integration and ETL processes more are particularly robust. Informatica Cloud is able to extract data using a secure agent installed cloud side. This data is then encrypted and transferred locally. As of August 2015 they have been acquisitioned by Microsoft and Salesforce.</td>
+          </tr>
         </tbody>
       </table>
       <hr>
-      <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+      <div class="row">
+        <div class="small-7 medium-10 large-7 columns">
+          <p>On the right is a sample query from extracting for a client database. As a SQL analyst, I would navigate through databases in order to understand it's sturcture. I would map columns from the client database, to similar concepts within our own database. Often I would learn the language of the database in order to construct these queries. In addition to TSQL, I also programmed in PL/SQL (Used for Oracle) and MySQL when mapping data concepts.</p>
+          <p>ETL (Extract-Transform-Load) refers to the process of extracting data, manipulating/cleaning it, and loading it into another database. The query demonstrates a the types of transformations that take place. Often, dates have to be formatted into proper datetime format, strings need to be parsed for certain information, or CASE logic determines what data is captured or tossed out.</p>
+        </div>
+        <div class="small-5 medium-2 large-5 columns picture">
+          <img src="images/sql1.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-5 medium-2 large-5 columns picture">
+          <img src="images/sql2.jpg">
+        </div>
+        <div class="small-7 medium-10 large-7 columns">
+          <p>The bottom section of the query always contains the FROM and WHERE statement. SQL queries always come with a SELECT and FROM statement. The WHERE statement is an optional statement frequently used to filter extraction results.</p>
+          <p>In this query, the FROM statement includes a left outer join, inner join, and left join. Joins are used to link tables together, and are integral to creating more complex queries that span across the database. This WHERE statement is used to filter our certain results. NULL patient ids, or test usernames are being parsed based on a wildcard search function.</p>
+        </div>
+      </div>
     </div>
 
     <div class="tabs-panel" id="clinical-research">
@@ -233,25 +250,20 @@
         </thead>
         <tbody>
           <tr>
-            <td>Rails</td>
-            <td>Ruby on Rails, or simply Rails, is a web application framework written in Ruby under MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and HTML, CSS and JavaScript for display and user interfacing. In addition to MVC, Rails emphasizes the use of other well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), and the active record pattern.</td>
-          </tr>
-          <tr>
-            <td>Foundation</td>
-            <td>Foundation is a responsive front-end framework that utilizes a responsive grid, HTML and CSS components. It includes code snippets for typography, forms, buttons, navigation and other common interface components. It also includes optional JavaScript extensions for a more responsive application. Foundation is maintained by ZURB and is an open source project.</td>
-          </tr>
-          <tr>
-            <td>Ruby</td>
-            <td>Ruby is a dynamic, object-orientated, general-purpose, programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. <a href="http://ruby-doc.com/docs/ProgrammingRuby/">The Pragmatic Programmer's Guide</a> by Dave Thomas and Andy Matz describe Ruby like this: "Take a true object-oriented language, such as Smalltalk. Drop the unfamiliar syntax and move to more conventional, file-based source code. Now add in a good measure of the flexibility and convenience of languages such as Python and Perl. You end up with Ruby."</td>
-          </tr>
-          <tr>
-            <td>HTML, CSS, JavaScript</td>
-            <td>HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JavaScript are cornerstone technologies used by websites. HTML determines the foundational structure and content of web pages. Web browsers then refer to CSS to define the look and layout of the text and other material. Finally, JavaScript enables a majority of the interaction between the user and the webpage. Without JavaScript, a majority of responsive effects would be unavailable. In terms of a human analogy, HTML is the skeleton, CSS is the skin, and JavaScript is the muscles of a web application.</td>
+            <td>Excel</td>
+            <td>Microsoft Excel is a spreadsheet program developed by Microsoft. It features your standard graphing tools, calculators, pivot tables, and a macro programming language called Visual Basic for Applications.</td>
           </tr>
         </tbody>
       </table>
       <hr>
-      <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+      <div class="small-5 columns picture">
+        <img src="images/mri1.jpg">
+      </div>
+      <div class="small-7 columns">
+        <p>My clinical research internship assisted in the a publication on a <a href="http://www.redjournal.org/article/S0360-3016(14)00140-0/abstract">therapy for lung cancer</a>.</p>
+        <p>The experiment involved looking at dozens of PET scans from patients who have completed an experimental therapy. The pet scan searched for a glucose marker called F-FDG to check for the possibility of recurrent lung cancer. If there was a correlation between F-FDG volumes in the post-radiation therapy PET scans, it could be used as another indicator that the tumor will become chronic. Patients were in all four phases of lung cancer, but a vast majority lie between stage 2 and stage 3.</p>
+        <p>Metrics on determining the stage of the cancer considered the height, width, and depth of the tumor. This data was accumulated into Excel spreadsheets along with their tumor photo.</p>
+      </div>
     </div>
   </div>
 </div>
