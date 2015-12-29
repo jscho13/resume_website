@@ -82,7 +82,7 @@
   </div>
   <ul class="tabs" data-tabs id="project-tabs">
     <li class="tabs-title is-active"><a href="#this-website">This Website</a></li>
-    <li class="tabs-title"><a href="#online-trading-webcrawler">Online Trading Webcrawler</a></li>
+    <li class="tabs-title"><a href="#webcrawler">Online Trading Webcrawler</a></li>
     <li class="tabs-title"><a href="#breakable-toy">Breakable Toy</a></li>
   </ul>
   <div class="tabs-content columns" data-tabs-content="project-tabs">
@@ -114,18 +114,18 @@
         </tbody>
       </table>
       <hr>
-      <div class="small-7 columns">
+      <div class="small-7 medium-10 large-7 columns">
         <p>There were several key decisions made when considering the purpose and goals of this website.
         My goal was to have heavy emphasis on design, and a lighter touch on server-side logic. Sinatra was an obvious choice because of how lightweight it is compared to Rails. While Rails is powerful, it’s MVC architecture is unnecessarily complex for a site primarily focused on design. The decision to use Sinatra allowed for faster development.</p>
         <p>Foundation as a fronted framework was an important choice on the structure of the site. Because of Foundation, the site became defined by Foundation’s grid-system, and a majority of the CSS effects became possible of Foundation libraries. The main header, orbit box, and containers all heavily utilized Foundation libraries.</p>
         <p>JavaScript was used for features such as auto rotating through images and having a header that sticks to the top of the page.</p>
       </div>
-      <div class="small-5 columns picture">
+      <div class="small-5 medium-2 large-5 columns picture">
         <img src="images/webpage1.jpg">
       </div>
     </div>
 
-    <div class="tabs-panel" id="online-trading-webcrawler">
+    <div class="tabs-panel" id="webcrawler">
       <table class="hover">
         <thead>
           <tr>
@@ -149,7 +149,17 @@
         </tbody>
       </table>
       <hr>
-      <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+      <div class="small-12 columns">
+        <p>The webcrawler is a Ruby program that parases through the website Csgo Lounge. Below is a sample picture of the site, as well as the structure of the URL query section.</p>
+      </div>
+      <div class="small-12 columns picture">
+        <img src="images/webcrawler1.jpg">
+      </div>
+      <div class="small-12 columns">
+        <p>There were several design decisions made while coding of the webcrawler. When iterating through the websites it was tempting to use either an array of hashes or an array of objects. Both were considered because they contain a list of attributes stored within a single unit. However, an array of objects was chosen because it would have scalability. It’s significantly easier to manipulate objects as opposed to hashes.</p><br>
+        <p>Ruby gems are useful for adding additional functionality with ease. Nokogiri is a gem (another name for Ruby library) that allows Ruby to parse through XML/HTML or similar markup languages. It was used to extract betting odds, usernames, and items being bet from the page during a set extraction interval. The extracted data was stored on the cloud, so the user could amass data on betting statistics.</p><br>
+        <p>XPath was used to select the elements from the page. I extensively used Chrome’s developer tools to navigate through the DOM (Document Object Model). The DOM is particularly useful to understand the structure of the website. HTML, CSS, and JavaScript can all be used within the DOM to manipulate the site client-side.</p><br>
+      </div>
     </div>
 
     <div class="tabs-panel" id="breakable-toy">
@@ -180,7 +190,7 @@
         </tbody>
       </table>
       <hr>
-      <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+      <p>The breakable toy is a project released at the end of the Launch Academy semester. Please contact me for more information.</p>
     </div>
   </div>
 </div>
