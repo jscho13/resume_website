@@ -1,5 +1,9 @@
 /* header-green: #c0dcc0 */
 
+#solver {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 3; }
+
 a {
   font-family: 'Open Sans Condensed', sans-serif; }
 
@@ -64,14 +68,18 @@ p {
     text-align: center;
     max-width: 100%;
     width: 100%;
-    padding: 1em;
+    padding: 1vmin;
     background-color: #c0dcc0; }
+  .orbit-bullets button {
+    background-color: #c0c0dc }
+  .orbit-bullets button.is-active {
+    background-color: #dcc0c0 }
 
 .top-bar {
   background-color: #c0dcc0;
   padding: 1vmin; }
   .top-bar ul {
-    background-color: white; }
+    background-color: #c0dcc0 }
 
 .menu > li:not(.menu-text) > a {
   padding: 1vmin; }
@@ -137,7 +145,7 @@ p {
   position: fixed;
   color: white;
   font-family: 'Vollkorn', serif;
-  font-size: 70px;
+  font-size: 5vmin;
   font-weight: bold;
   text-align: center;
   margin-top: 20%;
