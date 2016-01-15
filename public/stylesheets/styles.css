@@ -1,3 +1,7 @@
+/* header-green: #c0dcc0 */
+
+a {
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 body {
   height: auto; }
@@ -9,8 +13,7 @@ a[href="#home"] {
   color: black; }
 
 .menu a {
-  background-color: #c0dcc0;
-}
+  background-color: #c0dcc0; }
 
 hr {
   margin: 2vmin; }
@@ -23,7 +26,8 @@ thead th {
   padding:1.5vmin; }
 
 p {
-  margin: 1vmin; }
+  margin: 1vmin;
+  font-family: 'Open Sans', sans-serif; }
 
 .row {
   background-color: white; }
@@ -108,6 +112,28 @@ p {
     color: #8f9296;
     font-size: 1.5vmin; }
 
-element.style {
-  height: 40px;
+.container { position: relative;
+  text-shadow: 1px 1px black }
+  .container video {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    z-index:0;
+  }
+
+.overlay h1 {
+  position: fixed;
+  color: white;
+  font-family: 'Vollkorn', serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15%;
+  width: 100%;
+  z-index:1;
+}
+
+.other-container {
+  margin-top: 57%;
 }
