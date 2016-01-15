@@ -8,6 +8,10 @@ li {
 a[href="#home"] {
   color: black; }
 
+.menu a {
+  background-color: #c0dcc0;
+}
+
 hr {
   margin: 2vmin; }
 
@@ -50,7 +54,7 @@ p {
     text-align: center; }
 
 .top-bar {
-  background-color: white;
+  background-color: #c0dcc0;
   padding: 1vmin; }
   .top-bar ul {
     background-color: white; }
@@ -103,3 +107,7 @@ p {
   .footer p.copywrite {
     color: #8f9296;
     font-size: 1.5vmin; }
+
+element.style {
+  height: 40px;
+}

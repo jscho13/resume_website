@@ -2371,6 +2371,7 @@ select {
     margin-left: 1rem; }
 
 .menu-text {
+  background-color: #c0dcc0;
   font-weight: bold;
   color: inherit;
   line-height: 1;
@@ -3162,7 +3163,7 @@ table.hover tr:nth-of-type(even):hover {
   .top-bar ul {
     background-color: #e6e6e6; }
   .top-bar a {
-    color: #2199e8; }
+    color: black; }
   .top-bar input {
     width: 200px;
     margin-right: 1rem; }
