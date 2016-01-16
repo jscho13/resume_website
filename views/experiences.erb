@@ -8,25 +8,21 @@
   </ul>
   <div class="tabs-content columns" data-tabs-content="experience-tabs">
     <div class="tabs-panel is-active" id="db-sql-query">
-      <table class="hover">
-        <thead>
-          <tr>
-            <th width="15%">Technologies Used</th>
-            <th width="85%">Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>SQL</td>
-            <td>SQL is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS). Originally based upon relational algebra and tuple relational calculus, SQL consists of a data definition, manipulation, control language. The scope of SQL includes data insert, query, update, delete, schema creation and modification, and data access control. Although SQL is often described as, and to a great extent is, a declarative language, it also includes procedural elements.</td>
-          </tr>
-          <tr>
-            <td>Informatica Cloud</td>
-            <td>Informatica Cloud is a bulk data integration and data warehousing system. While their technology spans a variety of cloud and non-cloud applications, their data integration and ETL processes more are particularly robust. Informatica Cloud is able to extract data using a secure agent installed cloud side. This data is then encrypted and transferred locally. As of August 2015 they have been acquisitioned by Microsoft and Salesforce.</td>
-          </tr>
-        </tbody>
-      </table>
-      <hr>
+      <ul class="accordion" data-accordion role="tablist">
+        <li class="accordion-item is-active">
+          <a href="#panel1" class="accordion-title">SQL</a>
+          <div id="panel1" class="accordion-content" data-tab-content>
+            SQL is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS). Originally based upon relational algebra and tuple relational calculus, SQL consists of a data definition, manipulation, control language. The scope of SQL includes data insert, query, update, delete, schema creation and modification, and data access control. Although SQL is often described as, and to a great extent is, a declarative language, it also includes procedural elements.
+          </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#panel2" class="accordion-title">Informatica Cloud</a>
+          <div id="panel2" class="accordion-content" data-tab-content>
+            Informatica Cloud is a bulk data integration and data warehousing system. While their technology spans a variety of cloud and non-cloud applications, their data integration and ETL processes more are particularly robust. Informatica Cloud is able to extract data using a secure agent installed cloud side. This data is then encrypted and transferred locally. As of August 2015 they have been acquisitioned by Microsoft and Salesforce.
+          </div>
+        </li>
+      </ul>
+        <hr>
       <div class="row">
         <div class="small-7 medium-10 large-7 columns">
           <p>On the right is a sample query from extracting for a client database. As a SQL analyst, I would navigate through databases in order to understand it's sturcture. I would map columns from the client database, to similar concepts within our own database. Often I would learn the language of the database in order to construct these queries. In addition to TSQL, I also programmed in PL/SQL (Used for Oracle) and MySQL when mapping data concepts.</p>
@@ -48,21 +44,15 @@
     </div>
 
     <div class="tabs-panel" id="clinical-research">
-      <table class="hover">
-        <thead>
-          <tr>
-            <th width="20%">Technologies Used</th>
-            <th width="80%">Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Excel</td>
-            <td>Microsoft Excel is a spreadsheet program developed by Microsoft. It features your standard graphing tools, calculators, pivot tables, and a macro programming language called Visual Basic for Applications.</td>
-          </tr>
-        </tbody>
-      </table>
-      <hr>
+      <ul class="accordion" data-accordion role="tablist">
+        <li class="accordion-item is-active">
+          <a href="#panel1" class="accordion-title">Excel</a>
+          <div id="panel1" class="accordion-content" data-tab-content>
+            Microsoft Excel is a spreadsheet program developed by Microsoft. It features your standard graphing tools, calculators, pivot tables, and a macro programming language called Visual Basic for Applications.
+          </div>
+        </li>
+      </ul>
+        <hr>
       <div class="small-5 columns picture">
         <img src="images/mri1.jpg">
       </div>

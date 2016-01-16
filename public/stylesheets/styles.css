@@ -33,8 +33,9 @@ thead th {
   padding:1.5vmin; }
 
 p {
-  margin: 1vmin;
-  font-family: 'Open Sans', sans-serif; }
+  font-size: 3vmin;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1vmin; }
 
 .row {
   background-color: white;
@@ -87,8 +88,8 @@ p {
 .menu > li:not(.menu-text) > a {
   padding: 1vmin; }
 
-.text-header {
-  font-size: 3vmin;
+.text-header p {
+  font-size: 4.5vmin;
   font-weight: bold; }
   .text-footer {
     font-size: 2vmin; }
