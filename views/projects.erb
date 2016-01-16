@@ -1,0 +1,110 @@
+<div id="projects" class="row columns">
+  <div class="text-header">
+    <p>Projects</p>
+  </div>
+  <ul class="tabs" data-tabs id="project-tabs">
+    <li class="tabs-title is-active"><a href="#this-website">This Website</a></li>
+    <li class="tabs-title"><a href="#webcrawler">Webcrawler</a></li>
+    <li class="tabs-title"><a href="#breakable-toy">Breakable Toy</a></li>
+  </ul>
+  <div class="tabs-content columns" data-tabs-content="project-tabs">
+    <div class="tabs-panel is-active" id="this-website">
+      <ul class="accordion" data-accordion role="tablist">
+        <li class="accordion-item is-active">
+          <a href="#panel1" class="accordion-title">Sinatra</a>
+          <div id="panel1" class="accordion-content" data-tab-content>
+            Sinatra is an open source library and domain-specific language written in Ruby. It's an alternative to other Ruby frameworks such as Rails, and does not follow the typical model–view–controller architecture used in other framkeworks. Instead, Sinatra's main benefit lies in it's ability to create light-weight web applications with speed and simplicity. Some notable companies and institutions that use Sinatra include Apple, BBC, LinkedIn, Engine Yard, Heroku, and Songbird.
+          </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#panel2" class="accordion-title">Foundation</a>
+          <div id="panel2" class="accordion-content" data-tab-content>
+            Foundation is a responsive front-end framework that utilizes a responsive grid, HTML and CSS components. It includes code snippets for typography, forms, buttons, navigation and other common interface components. It also includes optional JavaScript extensions for a more responsive application. Foundation is maintained by ZURB and is an open source project.
+          </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#panel3" class="accordion-title">Ruby</a>
+          <div id="panel3" class="accordion-content" data-tab-content>
+            Ruby is a dynamic, object-orientated, general-purpose, programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. <a href="http://ruby-doc.com/docs/ProgrammingRuby/">The Pragmatic Programmer's Guide</a> by Dave Thomas and Andy Matz describe Ruby like this: "Take a true object-oriented language, such as Smalltalk. Drop the unfamiliar syntax and move to more conventional, file-based source code. Now add in a good measure of the flexibility and convenience of languages such as Python and Perl. You end up with Ruby."
+          </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#panel4" class="accordion-title">HTML, CSS, JavaScript</a>
+          <div id="panel4" class="accordion-content" data-tab-content>
+            HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JavaScript are cornerstone technologies used by websites. HTML determines the foundational structure and content of web pages. Web browsers then refer to CSS to define the look and layout of the text and other material. Finally, JavaScript enables a majority of the interaction between the user and the webpage. Without JavaScript, a majority of responsive effects would be unavailable. In terms of a human analogy, HTML is the skeleton, CSS is the skin, and JavaScript is the muscles of a web application.
+          </div>
+        </li>
+      </ul>
+        <hr>
+      <div class="small-7 medium-10 large-7 columns">
+        <p>There were several key decisions made when considering the purpose and goals of this website.
+        My goal was to have heavy emphasis on design, and a lighter touch on server-side logic. Sinatra was an obvious choice because of how lightweight it is compared to Rails. While Rails is powerful, it’s MVC architecture is unnecessarily complex for a site primarily focused on design. The decision to use Sinatra allowed for faster development.</p>
+        <p>Foundation as a fronted framework was an important choice on the structure of the site. Because of Foundation, the site became defined by Foundation’s grid-system, and a majority of the CSS effects became possible of Foundation libraries. The main header, orbit box, and containers all heavily utilized Foundation libraries.</p>
+        <p>JavaScript was used for features such as auto rotating through images and having a header that sticks to the top of the page.</p>
+      </div>
+      <div class="small-5 medium-2 large-5 columns picture">
+        <img src="images/webpage1.jpg">
+      </div>
+    </div>
+
+    <div class="tabs-panel" id="webcrawler">
+      <ul class="accordion" data-accordion role="tablist">
+        <li class="accordion-item is-active">
+          <a href="#panel1" class="accordion-title">Ruby</a>
+          <div id="panel1" class="accordion-content" data-tab-content>
+            Ruby is a dynamic, object-orientated, general-purpose, programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. <a href="http://ruby-doc.com/docs/ProgrammingRuby/">The Pragmatic Programmer's Guide</a> by Dave Thomas and Andy Matz describe Ruby like this: "Take a true object-oriented language, such as Smalltalk. Drop the unfamiliar syntax and move to more conventional, file-based source code. Now add in a good measure of the flexibility and convenience of languages such as Python and Perl. You end up with Ruby."
+          </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#panel2" class="accordion-title">Nokogiri</a>
+          <div id="panel2" class="accordion-content" data-tab-content>
+            Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser. It parses and searches XML/HTML very quickly, and also has correctly implemented CSS3 selector support as well as XPath 1.0 support.
+          </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#panel3" class="accordion-title">XPath</a>
+          <div id="panel3" class="accordion-content" data-tab-content>
+            XPath, the XML Path Language, is a query language for selecting nodes from an XML document. In addition, XPath may be used to compute values (e.g., strings, numbers, or Boolean values) from the content of an XML document.
+          </div>
+        </li>
+      </ul>
+        <hr>
+      <div class="small-12 columns">
+        <p>The webcrawler is a Ruby program that parases through the website Csgo Lounge. Below is a sample picture of the site, as well as the structure of the URL query section.</p>
+      </div>
+      <div class="small-12 columns picture">
+        <img src="images/webcrawler1.jpg">
+      </div>
+      <div class="small-12 columns">
+        <p>There were several design decisions made while coding of the webcrawler. When iterating through the websites it was tempting to use either an array of hashes or an array of objects. Both were considered because they contain a list of attributes stored within a single unit. However, an array of objects was chosen because it would have scalability. It’s significantly easier to manipulate objects as opposed to hashes.</p>
+        <p>Ruby gems are useful for adding additional functionality with ease. Nokogiri is a gem (another name for Ruby library) that allows Ruby to parse through XML/HTML or similar markup languages. It was used to extract betting odds, usernames, and items being bet from the page during a set extraction interval. The extracted data was stored on the cloud, so the user could amass data on betting statistics.</p>
+        <p>XPath was used to select the elements from the page. I extensively used Chrome’s developer tools to navigate through the DOM (Document Object Model). The DOM is particularly useful to understand the structure of the website. HTML, CSS, and JavaScript can all be used within the DOM to manipulate the site client-side.</p>
+      </div>
+    </div>
+
+    <div class="tabs-panel" id="breakable-toy">
+      <ul class="accordion" data-accordion role="tablist">
+        <li class="accordion-item is-active">
+          <a href="#panel1" class="accordion-title">Rails</a>
+          <div id="panel1" class="accordion-content" data-tab-content>
+            Ruby on Rails, or simply Rails, is a web application framework written in Ruby under MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and HTML, CSS and JavaScript for display and user interfacing. In addition to MVC, Rails emphasizes the use of other well-known software engineering patterns and paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), and the active record pattern.
+          </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#panel2" class="accordion-title">Foundation</a>
+          <div id="panel2" class="accordion-content" data-tab-content>
+            Foundation is a responsive front-end framework that utilizes a responsive grid, HTML and CSS components. It includes code snippets for typography, forms, buttons, navigation and other common interface components. It also includes optional JavaScript extensions for a more responsive application. Foundation is maintained by ZURB and is an open source project.
+          </div>
+        </li>
+        <li class="accordion-item">
+          <a href="#panel3" class="accordion-title">PostgreSQL</a>
+          <div id="panel3" class="accordion-content" data-tab-content>
+            PostgreSQL, often simply Postgres, is an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance. As a database server, its primary function is to store data securely, supporting best practices, and to allow for retrieval at the request of other software applications.
+          </div>
+        </li>
+      </ul>
+        <hr>
+      <p>The breakable toy is a project released at the end of the Launch Academy semester. Please contact me for more information.</p>
+    </div>
+  </div>
+</div>
