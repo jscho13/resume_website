@@ -1229,8 +1229,6 @@ a {
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
-  a:hover, a:focus {
-    color: #1585cf; }
   a img {
     border: 0; }
 
@@ -1832,7 +1830,7 @@ select {
 
 .accordion-title {
   display: block;
-  padding: 1.25rem 1rem;
+  padding: 2.50vmin 2vmin;
   line-height: 1;
   font-size: 3vmin;
   color: #4c584c;
@@ -1854,7 +1852,7 @@ select {
     content: '–'; }
 
 .accordion-content {
-  padding: 1.25rem 1rem;
+  padding: 1.25vmin 1vmin;
   display: none;
   border-bottom: 1px solid #e6e6e6; }
 

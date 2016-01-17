@@ -6,9 +6,6 @@
 /* dark green: #4c584c */
 /* darkest green: #394239 */
 
-a {
-  font-family: 'Open Sans Condensed', sans-serif; }
-
 body {
   height: auto; }
 
@@ -17,7 +14,8 @@ li {
 
 .menu a {
   background-color: #c0dcc0;
-  color: #4c584c; }
+  color: #4c584c;
+  font-family: 'Open Sans Condensed', sans-serif; }
   .menu-text {
     padding: 1vmin;
   }
@@ -44,6 +42,10 @@ p {
     background-color: black; }
   .gray-wrapper {
     background-color: #dddddd; }
+
+.experience-green {
+  background-color: #d0e5d0;
+}
 
 .black-row {
   background-color: black;
@@ -111,8 +113,7 @@ table {
 .footer {
   background-color: black;
   text-align: center;
-  padding: 1%;
-  margin-top: 3%; }
+  padding: 1%; }
   .footer p.slogan {
     color: #8d9093;
     font-size: 3.25vmin; }
@@ -120,7 +121,7 @@ table {
     text-align: center;
     list-style: none;
     font-weight: bold;
-    font-size: 2.5vmin;
+    font-size: 3vmin;
     color: #ffffff;}
     .footer .links a::after {
       content: "•";
@@ -130,7 +131,7 @@ table {
       padding-left: 0.75vmin; }
   .footer p.copywrite {
     color: #8f9296;
-    font-size: 1.5vmin; }
+    font-size: 1.9vmin; }
 
 .container { position: relative;
   text-shadow: 1px 1px black }
@@ -173,4 +174,8 @@ table {
 }
 #experience {
   background-color: #d0e5d0;
+}
+
+li.is-active > a {
+  background-color: #c0c0dc;
 }
