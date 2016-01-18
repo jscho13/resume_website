@@ -58,19 +58,21 @@ p {
 .picture {
   height: auto !important; }
 
-.orbit-container {
-  margin: auto;
+.overlay {
+  margin-top: 20%;
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
   position: fixed;
-  margin-top: 20%;
   z-index:1; }
-  .orbit-container h1 {
+  .overlay h1 {
     font-family: 'Vollkorn', serif;
     font-size: 4vmin;
     font-weight: bold;
     text-align: center;
     color: white; }
+
+.orbit-container {
+  width: 100%; }
   .orbit-caption {
     font-weight: bold;
     padding: 1vmin; }
