@@ -3,13 +3,13 @@
     <source src="images/edittedvideo1.mp4" type="video/mp4">
   </video>
   <div class="animated fadeInDown overlay">
-    <h1>I'm a <b id="solver" class="animated bounce infinite">solver</b>.</h1>
+    <h1>Find <b id="solver" class="animated flash infinite">engineering</b>.</h1>
   </div>
 </div>
 
 <div class="other-container">
-  <div id="about" class="row">
-    <div class="small-8 columns">
+  <div class="row">
+    <div class="small-12 medium-8 columns">
       <div class="text-header">
         <p>Hi, I'm Joseph.</p>
       </div>
@@ -21,13 +21,14 @@
         <p>On my spare time, I enjoy playing <a href="http://www.chess.com/members/view/jscho13">chess</a>, listening to music, <a href="https://www.youtube.com/watch?v=MpBVlkW347w">dancing</a>, and hanging out with good company.</p>
       </div>
     </div>
-    <div class="small-4 columns">
-      <img src="images/profile1.jpg">
+    <div class="small-12 medium-4 columns">
+      <img class="show-for-small hide-for-medium" src="images/profile2.jpg">
+      <img class="show-for-medium" src="images/profile1.jpg">
     </div>
   </div>
 
   <%= erb :orbit %>
-  <%= erb :project %>
-  <%= erb :experience %>
-  
+  <%= erb :projects %>
+  <%= erb :experiences %>
+
 </div>

@@ -117,6 +117,7 @@
 }
 
 .flash {
+  -webkit-animation-duration: 5s;
   -webkit-animation-name: flash;
   animation-name: flash;
 }

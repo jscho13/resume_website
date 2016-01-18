@@ -1229,8 +1229,6 @@ a {
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
-  a:hover, a:focus {
-    color: #1585cf; }
   a img {
     border: 0; }
 
@@ -1832,14 +1830,16 @@ select {
 
 .accordion-title {
   display: block;
-  padding: 1.25rem 1rem;
+  padding: 2.50vmin 2vmin;
   line-height: 1;
-  font-size: 0.75rem;
-  color: #2199e8;
+  font-size: 3vmin;
+  color: #4c584c;
   position: relative;
   border-bottom: 1px solid #e6e6e6; }
-  .accordion-title:hover, .accordion-title:focus {
-    background-color: #e6e6e6; }
+  .accordion-title:hover {
+    background-color: #dcc0c0; }
+  .accordion-title:focus {
+    background-color: #c0c0dc; }
   :last-child > .accordion-title {
     border-bottom-width: 0; }
   .accordion-title::before {
@@ -1852,7 +1852,7 @@ select {
     content: '–'; }
 
 .accordion-content {
-  padding: 1.25rem 1rem;
+  padding: 1.25vmin 1vmin;
   display: none;
   border-bottom: 1px solid #e6e6e6; }
 
@@ -2973,7 +2973,7 @@ table.hover tr:nth-of-type(even):hover {
 .tabs {
   margin: 0;
   list-style-type: none;
-  background: #fefefe;
+  background: #e1eee1;
   border: 1px solid #e6e6e6; }
   .tabs::before, .tabs::after {
     content: ' ';
@@ -3002,14 +3002,14 @@ table.hover tr:nth-of-type(even):hover {
     padding: 1.25rem 1.5rem;
     line-height: 1;
     font-size: 12px;
-    color: #2199e8; }
+    color: #4c584c; }
     .tabs-title > a:hover {
-      background: #fefefe; }
+      background: #dcc0c0; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
-      background: #e6e6e6; }
+      background: #c0c0dc; }
 
 .tabs-content {
-  background: #fefefe;
+  background: #e1eee1;
   transition: all 0.5s ease;
   border: 1px solid #e6e6e6;
   border-top: 0; }
