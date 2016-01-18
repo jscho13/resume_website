@@ -60,7 +60,17 @@ p {
 
 .orbit-container {
   margin: auto;
-  width: 100%; }
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  margin-top: 20%;
+  z-index:1; }
+  .orbit-container h1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 4vmin;
+    font-weight: bold;
+    text-align: center;
+    color: white; }
   .orbit-caption {
     font-weight: bold;
     padding: 1vmin; }
@@ -142,20 +152,6 @@ table {
     background-size: cover;
     z-index:0;
   }
-
-.overlay h1 {
-  background: rgba(0, 0, 0, 0.4);
-  position: fixed;
-  color: white;
-  font-family: 'Vollkorn', serif;
-  font-size: 4vmin;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 20%;
-  margin-left: 35%;
-  width: 30%;
-  z-index:1;
-}
 
 .other-container {
   margin-top: 57%;
