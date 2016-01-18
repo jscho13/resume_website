@@ -3731,7 +3731,7 @@ Foundation.Motion = Motion;
 
     eqGroup.height('inherit');
     heights = eqGroup.map(function () { return $(this).outerHeight(false);}).get();
-    
+
     return heights;
   };
   /**
@@ -6453,7 +6453,7 @@ Foundation.plugin(ResponsiveToggle, 'ResponsiveToggle');
       css[stickTo] = 0;
       css[notStuckTo] = anchorPt;
     }
-    
+
     css['left'] = '';
     this.isStuck = false;
     this.$element.removeClass('is-stuck is-at-' + stickTo)
