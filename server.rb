@@ -1,4 +1,7 @@
 require 'sinatra'
+require 'dotenv'
+
+Dotenv.load
 use Rack::Deflater
 
 get '/' do
